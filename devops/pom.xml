@@ -27,6 +27,7 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
+			<!-- // commenting this to check if the test result is still available in jenkin
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -37,6 +38,7 @@
                     </includes>
                 </configuration>
             </plugin>
+			-->
         </plugins>
     </build>
 
